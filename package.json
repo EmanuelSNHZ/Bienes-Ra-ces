@@ -5,8 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelSNHZ/Bienes-Ra-ces.git"
+  },
   "author": "Emanuel I. Sanchez",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelSNHZ/Bienes-Ra-ces/issues"
+  },
+  "homepage": "https://github.com/EmanuelSNHZ/Bienes-Ra-ces#readme",
   "description": "",
   "devDependencies": {
     "cssnano": "^4.1.10",
