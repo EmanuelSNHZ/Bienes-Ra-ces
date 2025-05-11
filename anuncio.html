@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="build/img/logo.svg" alt="Logotipo Bienes Raices">
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div> <!-- .barra -->
+        </div> <!-- .contenedor .contenido-header -->
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Casa en Venta frente al bosque</h1>
+        <picture>
+            <source srcset="build/img/destacada.webp" type="image/webp">
+            <source srcset="build/img/destacada.jpg" type="image/jpeg">
+                <img loading="lazy" src="build/img/destacada.jpg" alt="Imagen de la Propiedad">
+        </picture>
+        <div class="resumen-propiedad">
+            <p class="precio">$1.000.000</p>
+            <ul class="iconos-caracteristicas">
+                <li>
+                    <img loading="lazy" src="build/img/icono_wc.svg" alt="Icono wc">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono Estacionamiento">
+                    <p>4</p>
+                </li>
+                <li>
+                    <img loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono Dormitorios">
+                    <p>5</p>
+                </li>
+            </ul>
+            <p>
+                Donec eget ex cursus, lobortis dui nec, pulvinar dolor. Fusce aliquam, risus a tincidunt aliquet, massa lacus aliquam risus, eget consectetur risus enim sit amet felis. Cras orci risus, laoreet pretium risus non, hendrerit ullamcorper dolor. Duis rutrum consequat nibh, sed bibendum nisi vehicula sed. Curabitur tempus nulla sed elit laoreet bibendum. Ut iaculis porta dui, et consectetur mauris. Aenean in fringilla eros. Mauris vitae dolor eros. Morbi aliquet ipsum nec aliquam cursus. Curabitur justo ex, viverra vel facilisis ut, aliquam eget sem. Vestibulum et dolor sit amet purus auctor auctor. Quisque porta libero non gravida mollis. Integer in lacus convallis, fermentum lorem in, ultrices tortor. Aenean id ullamcorper felis.
+            </p>
+            <p>
+                Maecenas varius, dui id malesuada commodo, eros risus aliquam nunc, eu vestibulum mauris dolor nec odio. Nullam ligula nisi, tristique ut iaculis ac, porta ac ipsum. Maecenas nec odio vel metus mollis pellentesque sed pretium erat. Praesent euismod ipsum nec tincidunt fringilla. Fusce vitae accumsan enim.
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div> <!-- .contenedor .contenedor-footer -->
+        <p class="copyright">Todos los Derechos Reservados 2021 &copy;</p>
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
