@@ -32,8 +32,10 @@
     margin-top: $separacion / 2;
     display: $display;
     transition: background-color 0.2s ease-in-out;
+    border: none;
 
     &:hover {
         background-color: darken($bgcolor, 5);
+        cursor: pointer;
     }
 }
