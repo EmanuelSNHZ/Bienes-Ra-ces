@@ -12,6 +12,8 @@
 }
 
 .navegacion {
+    display: none;
+
     @include tablet {
         display: flex;
         align-items: center;
@@ -40,4 +42,22 @@
             color: $verde;
         }
     }
+}
+
+/** Menu navegacion hamburguesa **/
+.mobile-menu {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;
+    @include tablet {
+        display: none;
+    }
+
+    img {
+        width: 3rem;
+    }
+}
+
+.mostrar {
+    display: block;
 }
