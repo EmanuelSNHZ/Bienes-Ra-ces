@@ -1,6 +1,7 @@
 .barra {
     display: flex;
     flex-direction: column;
+
     @include tablet {
         flex-direction: row;
         justify-content: space-between;
@@ -54,10 +55,16 @@
     }
 
     img {
-        width: 3rem;
+        width: 3.5rem;
+        margin-top: 2rem; // Separacion del "boton" con el enlace tipo logo
     }
 }
 
 .mostrar {
-    display: block;
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+        flex-direction: row;
+    }
 }
