@@ -1,11 +1,39 @@
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        align-items: flex-end;
+    }
+
+    .dark-mode-boton {
+        width: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        filter: invert(100%); // Invertimos el color de negro a blanco
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
 .barra {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     @include tablet {
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 2.5rem;
+        align-items: flex-end;
         img {
             height: 4rem;
         }
