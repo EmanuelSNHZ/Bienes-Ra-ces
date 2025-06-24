@@ -1,0 +1,45 @@
+.dark-mode {
+    background-color: #121212;
+    
+    h1, h2, h3, h4, a{
+        color: $blanco;
+    }
+
+    P {
+        color: #CCCCCC;
+    }
+
+    boton-verde {
+        color: #6DD400;
+    }
+    
+    boton-amarillo-block, boton-amarillo {
+        color: #F9A825;
+    }
+
+    .anuncio {
+        background-color: #1F1F1F;
+        border: 1px solid #333333;
+
+        .precio {
+            color: #6DD400;
+        }
+    }
+}
+
+/*
+.contenido-anuncio {
+        background-color: #1F1F1F;
+        border-color: #333333;
+
+        .precio {
+            color: #6DD400;
+        }
+    }
+    
+    .iconos-caracteristicas {
+        img {
+            filter: invert(100%);
+        }
+    }
+*/

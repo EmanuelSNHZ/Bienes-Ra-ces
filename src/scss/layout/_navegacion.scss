@@ -30,22 +30,33 @@
     flex-direction: column;
     align-items: center;
 
+    img {
+        width: 30rem;
+        height: auto;
+    }
+
     @include tablet {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
+        
         img {
             height: 4rem;
+            width: auto;
         }
     }
 }
 
 .navegacion {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .3s ease-in-out, opacity .5s linear;
 
     @include tablet {
         display: flex;
         align-items: center;
+        visibility: visible;
+        opacity: 1;
     }
 
     a {
@@ -85,14 +96,11 @@
     img {
         width: 3.5rem;
         margin-top: 2rem; // Separacion del "boton" con el enlace tipo logo
+        cursor: pointer;
     }
 }
 
 .mostrar {
-    display: flex;
-    flex-direction: column;
-
-    @include tablet {
-        flex-direction: row;
-    }
+    visibility: visible;
+    opacity: 1;
 }
