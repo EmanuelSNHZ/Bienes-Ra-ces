@@ -21,8 +21,41 @@
         background-color: #1F1F1F;
         border: 1px solid #333333;
 
-        .precio {
-            color: #6DD400;
+        .iconos-caracteristicas img {
+            filter: invert(100%);
+        }
+    }
+
+    .texto-nosotros blockquote {
+        color: $blanco;
+    }
+
+    .precio {
+        color: #6DD400;
+    }
+
+    .icono-darkmode {
+        filter: invert(100%);
+    }
+
+    .informacion-meta span {
+        color: #F9A825;
+    }
+
+    .formulario {
+        label,
+        legend,
+        input,
+        p {
+            color: #CCCCCC;
+        }
+
+        input:not([type="submit"]),
+        textarea,
+        select {
+            background-color: #1F1F1F;
+            color: $blanco;
+            border: 1px solid #333333;
         }
     }
 }
