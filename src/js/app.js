@@ -6,6 +6,16 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function darkMode() {
+
+    // Busca la preferencia de SO en darkmode
+    const prefiereDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+    console.log(prefiereDarkMode);
+    if(prefiereDarkMode.matches) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+
     const botonDarkMode = document.querySelector('.dark-mode-boton');
 
     botonDarkMode.addEventListener('click', function(){
