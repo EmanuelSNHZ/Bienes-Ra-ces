@@ -1,7 +1,9 @@
 <?php 
-    $inicio = True;
-    $nombreTitulo = 'Bienes Raices';
-    include 'includes/templates/header.php';
+    
+    require 'includes/funciones.php';
+
+    incluirTemplate( 'header', 'Bienes Raices', true );
+    
 ?>
 
     <main class="contenedor seccion">
@@ -174,4 +176,4 @@
         </section>
     </div> <!-- .contenedor .seccion -->
 
-<?php include 'includes/templates/foother.php'; ?>
+<?php incluirTemplate('footer'); ?>

@@ -1,10 +1,13 @@
 <?php
-    $nombreTitulo = '';
-    include 'includes/templates/header.php';
+    
+    require 'includes/funciones.php';
+
+    incluirTemplate( 'header' );
+
 ?>
 
     <main class="contenedor seccion">
         <h1>Titulo Página</h1>
     </main>
 
-<?php include 'includes/templates/foother.php'; ?>
+<?php incluirTemplate('footer'); ?>

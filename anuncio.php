@@ -1,6 +1,9 @@
 <?php
-    $nombreTitulo = 'Anuncio';
-    include 'includes/templates/header.php';
+
+    require 'includes/funciones.php';
+
+    incluirTemplate( 'header', 'Anuncio' );
+
 ?>
 
     <main class="contenedor seccion contenido-centrado">
@@ -35,4 +38,4 @@
         </div>
     </main>
 
-<?php include 'includes/templates/foother.php'; ?>
+<?php incluirTemplate('footer'); ?>

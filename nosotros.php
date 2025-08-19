@@ -1,6 +1,9 @@
 <?php
 
-    include 'includes/templates/header.php';
+    require 'includes/funciones.php';
+
+    incluirTemplate('header', 'Nosotros' );
+
 ?>
 
     <main class="contenedor seccion">
@@ -48,4 +51,4 @@
         </div><!-- .icono-nosotros -->
     </section>
 
-<?php include 'includes/templates/foother.php'; ?>
+<?php incluirTemplate('footer'); ?>
